@@ -1,0 +1,16 @@
+{
+    "cards": [
+      {
+        "image": "resimler/cpm.png",
+        "title": "A test post",
+        "desc": "My first blog post in here!",
+        "article": "first"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "Trafic Inspectors <strong>2</strong>",
+        "desc": "``The sequel we didn't deserve but needed.``",
+        "article": "ti2_blog1"
+      }
+    ]
+}
