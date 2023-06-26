@@ -12,5 +12,12 @@
         "desc": "``The sequel we didn't deserve but needed.``",
         "article": "ti2_blog1"
       }
+      ,
+      {
+        "image": "resimler/logov1.png",
+        "title": "2. Dev post",
+        "desc": "It's going alright",
+        "article": "ti2_blog2"
+      }
     ]
 }
