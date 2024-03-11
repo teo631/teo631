@@ -1,0 +1,271 @@
+:root{
+    --scrollTrack: #rgb(40, 53, 148);
+    --scrollbar-thumb: rgb(30, 40, 110);
+    --thumb-hover: rgb(39, 29, 66);
+
+    --bodyBack: rgb(55, 70, 121);
+
+    --topGradient: linear-gradient(90deg, rgb(65, 48, 112) 10%, rgb(40, 53, 148) 100%);
+    --bottomGradient: linear-gradient(90deg, rgb(22, 22, 22) 10%, rgb(16, 23, 75) 100%);
+
+    --topButtonText:aliceblue;
+    --topButtonHoverBackground:var(--topButtonText);
+
+    --bottomUlText:rgb(40, 53, 148);
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:white;
+    --paragraphLinkHover:rgb(0, 153, 255)  ;
+
+    --cardBack:rgb(65, 48, 112);
+    --cardTitle:lightblue;
+
+    --articTitle:rgb(97, 135, 148);
+ }
+ ::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--scrollTrack);; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  var(--scrollbar-thumb);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--thumb-hover); 
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bodyBack);
+}
+
+.topButton{
+    float: right;
+    padding: 30px 30px 30px 30px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    min-width: 100px;
+    color: var(--topButtonText)
+}
+
+.row{
+    display: flex;
+}
+
+.row p{
+    text-align: center;  
+    margin: 100px 0px 0px 0px;
+    font-size: 30px;
+    line-height: 1.5;
+    color: var(--articTitle);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#mainPic{
+    width: 300px;
+    height: 300px;
+    margin: 40px 15px 15px 40px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,.8);
+}
+
+.topButton:hover{
+    background-color:var(--topButtonHoverBackground);
+    color: var(--topButtonHoverText)
+}
+
+a{
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+
+    -webkit-transition: background 0.3s;
+    -moz-transition:    background 0.3s;
+    -ms-transition:     background 0.3s;
+    -o-transition:      background 0.3s;
+    transition:         background 0.3s;
+    text-decoration: none;
+}
+
+#top{
+    width: 100%;
+    background: rgb(2,0,32);
+    background-image: var(--topGradient);
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0;
+}
+
+#topImg{
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+}
+
+#bottom{
+    width: 100%;
+    padding-top: 20px;
+    background-image: var(--bottomGradient);
+    overflow: hidden;
+    margin-top: 50px;
+    box-shadow: 0 0 50px 0;
+    bottom: 0;
+}
+
+#bottom ul{
+    margin: 0px 0px 20px 0px;
+    display: inline-block;
+    list-style: none;
+    justify-content: end;
+    font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: var(--bottomUlText)
+}
+
+#bottom a{
+    color: var(--bottomLink);
+    text-align:center;
+    padding: 0px 0px 0px 0px;
+    font-size: 15px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;;
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+}
+
+a{
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+
+    -webkit-transition: background 0.3s;
+    -moz-transition:    background 0.3s;
+    -ms-transition:     background 0.3s;
+    -o-transition:      background 0.3s;
+    transition:         background 0.3s;
+    text-decoration: none;
+}
+
+p a{
+    -webkit-transition: color 0.3s;
+    -moz-transition:    color 0.3s;
+    -ms-transition:     color 0.3s;
+    -o-transition:      color 0.3s;
+    transition:         color 0.3s;
+    color: var(--paragraphLink);
+    text-decoration: underline;
+    border-radius: 5px;
+    break-inside: avoid;
+}
+
+p a:hover{
+    color: var(--paragraphLinkHover);
+}
+
+#bottom a:hover{
+    color: var(--bottomLinkHover);
+    text-align:center;
+    font-size: 15px;
+    cursor:pointer;
+}
+
+
+.card{
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: top;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    height: 20%;
+    height: 500px;
+    display: inline-block;
+    background-color: var(--cardBack);
+    
+}
+
+.tt{
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--cardTitle);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    
+}
+
+.desc{
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--cardTitle);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.cardpic{
+    
+    margin-top: 20px;
+    max-width: 50%;
+    max-height: 50%;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,.8);
+    border-radius: 20px;
+}
+
+.articleImage{
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,.8);
+    margin-left: 30px;
+}
+
+.articleTitle{
+    padding-left: 30px;
+    font-size: 45px;
+    line-height: 1.5;
+    color: var(--articTitle);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.articleParag{
+    padding-left: 30px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--cardTitle);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.embedFrame{
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,.8);
+    margin-left: 30px;
+}
+
+#card-container{
+vertical-align: top;
+color: black;
+}
+
+#disqus_thread{
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+margin: 40px;
+}
+
+#disqus_thread a {
+    color: var(--articTitle);
+  }
+
+  #disqus_thread a:hover {
+    color: var(--topButtonText);
+  }

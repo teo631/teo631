@@ -1,0 +1,115 @@
+{
+    "cards": [
+      
+      {
+        "image": "resimler/bored.png",
+        "title": "small update, with many topics",
+        "desc": ":p",
+        "article": "smallUpdate"
+      }
+      ,
+      {
+        "image": "resimler/bored.png",
+        "title": "a very boring sunday and some hate speech",
+        "desc": "",
+        "article": "sunday"
+      }
+      ,
+      {
+        "image": "resimler/ti3_concept.png",
+        "title": "TRAFFIC INSPECTORS 2 IS OFFICALY DEAD(REAL)(kinda)",
+        "desc": "i was at home eating bread when phone rang, <br>traffic inspectors 2 is kill<br>no",
+        "article": "ti2isKill"
+      },
+      {
+        "image": "thumb.png",
+        "title": "Possible website renovation",
+        "desc": "you decide it this time",
+        "article": "webPoll"
+      },
+      {
+        "image": "https://asawicki.info/Mirror/Car%20Physics%20for%20Games/Car%20Physics%20for%20Games_files/ctsacurve.gif",
+        "title": "The struggle of understanding vehicle physics && pretty much everything else.",
+        "desc": "Ending the holiday posting streak with this one.",
+        "article": "vehicle"
+      }
+      ,
+      {
+        "image": "resimler/lego/p1.jpg",
+        "title": "Lego rubberband pistol tutorial (with working trigger)",
+        "desc": "made from bricks (reqiures a singuler technic pin)",
+        "article": "legoGun"
+      }
+      ,
+      {
+        "image": "resimler/cpm2b.png",
+        "title": "cpm2 dev log 1",
+        "desc": "Sensless development",
+        "article": "cpm2_d1"
+      }
+      ,
+      {
+        "image": "https://i.scdn.co/image/ab67616d00001e02494d095cc4f1cd9eb06a0d1f",
+        "title": "Music recomandation",
+        "desc": "Many tracks and albums",
+        "article": "musicRec"
+      }
+      ,
+      {
+        "image": "resimler/RR.png",
+        "title": "New Year's resolution",
+        "desc": "Welcome 2024",
+        "article": "2024"
+      }
+      ,
+      {
+        "image": "resimler/logov1.png",
+        "title": "7. dev post",
+        "desc": "its time",
+        "article": "ti2_blog7"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "6. dev post",
+        "desc": ":3",
+        "article": "ti2_blog6"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "5. dev post",
+        "desc": "I hate it",
+        "article": "ti2_blog5"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "4. dev post",
+        "desc": "`who even cares lol",
+        "article": "ti2_blog4"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "3. Dev post",
+        "desc": "Descent into the techincal debt",
+        "article": "ti2_blog3"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "2. Dev post",
+        "desc": "It's going alright",
+        "article": "ti2_blog2"
+      },
+      {
+        "image": "resimler/logov1.png",
+        "title": "Trafic Inspectors <strong>2</strong>",
+        "desc": "``The sequel we didn't deserve but needed.``",
+        "article": "ti2_blog1"
+      },
+      {
+        "image": "resimler/cpm.png",
+        "title": "A test post",
+        "desc": "My first blog post in here!",
+        "article": "first"
+      }
+    ]
+}
+

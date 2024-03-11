@@ -1,0 +1,186 @@
+<h1 class="articleTitle">Hey its me again</h1>
+<p class="articleParag">
+    In case that I wasn't realy open about it, I am kinda into cars. Not that much actualy, I just find them kinda cool.
+    <br>
+    <br>
+    Today I am going to be talking about what I learnt whilst trying to understand their physics principles. 
+    <br>
+    (Edit from 3 days later as of writing the line above.) So it turns out it will actualy take pretty long to fully explain 
+    the knowledge that I want to share. Because of that I will split it into multiple parts and explain them one by one in diffirent blog posts.
+    This post we will primarly focus on spring components.
+    <br>
+    (WARNING: this isn't a tutorial. Information here may be incorrect. This is just what I understood/didn't understood of them. )
+    <br>
+    (TL;DR: i have no idea of what i am doing)
+</p>
+
+<h1 class="articleTitle">The part that I understood the best compared to other parts: SPRINGS & ROLLBARS</h1>
+<p class="articleParag">
+    You know the things that go boing? They follow a simple rule (shout-outs to Robert Hooke for finding this formula).
+    "x" is the travel distance of the spring and the "k" is the constant/stiffnes also don't forget delta time since this is a 
+    continious force.
+    <br>
+    <br>
+    <code style="background-color: rgb(48, 48, 48); width: 100%;">
+        f=-xk*△t
+    </code>
+    <br>
+    <br>
+    Tip: Don't forget to clamp the spring force so it doesn't go into the negatives.Spring cant pull the car down!(Unless you have your wheels glued to ground or something).
+    <br>
+    <br>
+    But when we apply this to our car you will see that the car is bouncing in place. To fix that we need to dampen the springs.
+    We just need to subtract the travel distance since last step multipled by our damping stiffnes. x for the spring size and k for the damper stiffnes.
+    Note that we are not using delta time here since this is a action-reaction type of function. 
+    <br>
+    <br>
+    <code style="background-color: rgb(48, 48, 48); width: 100%;">
+        f_damper=-△x*k
+    </code>
+    <br>
+    <br>
+    Well lets get into rollbars. You might not understand their purpuse rn and see them as "unnecesery". Youc can always see 
+    the lateral friction part and come back later.
+    <br>
+    <br>
+    Lets start. x<sub>1</sub> is the lenght of the right spring on the axel. x<sub>2</sub> is for the right spring.
+    <br>
+    <br>
+    <code style="background-color: rgb(48, 48, 48); width: 100%;">
+        rollbarForce=(x<sub>1</sub>-x<sub>2</sub>)*k*△t
+        <br>
+        if isRightWheelOnAir==false:
+        <br>
+        (apply force "rollbarForce*(up direction of left wheel)")
+        <br>
+        if isLeftWheelOnAir==false:
+        <br>
+        (apply force "rollbarForce*(up direction of right wheel)*-1")
+    </code>
+    <br>
+    (Note: you might need to tweak this a bit since I am writing it from memory atm.)
+</p>
+<h1 class="articleTitle">
+    since we are done with the "The struggle of understanding vehicle physics" part lets move onto the "struggles of pretty much everything else"</h1>
+<p class="articleParag">
+    Since I have shooken of people with lower attention span at the first chapter of this post I can talk more about personal stuff. Please don't immidetly click off.
+    Had one of the most peacefull holidays I have had and I don't regret a second of it. I have so many things to talk about rn so lets go topic by topic.
+
+    <br>
+    <br>
+    1. School 
+    <br>
+    <br>
+    I realy don't wanna go there. But the worst part is that I have to in order to have a 
+    financial freedom in the future.
+    Some days feel like going to hell and back. At best it just feels bland. The education is okay at best , its just 
+    topic memorazation over and over again. If the school day is 8 hours, about four to five hours of that is wasted time.
+    Because It's filled with stupid classes that you litteraly don't do anything meaningfull in for eg: 
+    music(2x),pe(2x),english (4x),litirutre(6x),IT (1x),religion(2x),"climate" (2x), chemistry(2x)(more on chemistry later.).
+    almost 20 hours a week. Some weeks even more than that. If we include the stupid "performace" homeworks that your 
+    teachers give you because they are legaly obliged thats roughly shaving a day of your week AND deleting the 
+    part of the day where you are supposed to go out and socialize.Who will pay me compensation for this? Like literaly 
+    who????????? I didn't do anything wrong and I am the victim here, so clearyl I need some form of "compensation " for this.
+    Also I haven't yet touched the worst part of it:"the exam week". This is the part where the feeling of going to hell and back 
+    realy makes you feel it. No words can explain the despair, the anxiety  I have felt. That period in time is the primary reason   
+    behind my physchological issiues. Even if you do good in it nobody cares and will ever care. Wish you that you could protest this kind of stuff but
+    but you know "Everybody wants to change the world but nobody wants to die.". The worst part is the only thing that school gave me is 
+    the ability to crush myself under my own expectations and crumble apart when faced against a task endures me a slightest bit of anxiety.
+
+    <br>
+    <br>
+    2. The supposed website re-disgn 
+    <br>
+    <br>
+    I have been thinking about it for a while now and i think I have decided that I'll prob switch of to green with a 
+    theme selector (you can see the necesery infrastructure changes at the index.css file).
+    As for the insparations for the redisgn here are some examples with a similar color pellate.
+    <br>
+    <img style="width: 256px;" class="articleImage" src="https://i.redd.it/4hcpgeku1yaa1.jpg">
+    <img style="width: 256px;" class="articleImage" src="https://i.pinimg.com/736x/2c/8e/c2/2c8ec2af582fbdac1ef8a01d66047314.jpg">
+    <img style="width: 256px;" class="articleImage" src="https://preview.redd.it/frutiger-office-v0-iycrklwuze7a1.png?width=640&crop=smart&auto=webp&s=f292ab6ef46ce08bfde9bbaa10999666241a5485">
+    <br>
+    <br>
+    3. Cycling
+    <br>
+    <br>
+    So in span of 2 weeks I have gained the habit of cycling early in the morning! Which helps me a lot and is a
+    nice way to start my week.Rides are fairly eventfull. For example I nearly rear ended a parked Mitsubishi Colt today while going 
+    downhill at full speed, got chased by stray dogs last week and I am not going mention all the close calls I had while going fast.
+    This is probably the most positive paragraph you'll read in this post.
+    <br>
+    <br>
+    4. Future project plans
+    <br>
+    <br>
+    Wtf am I going to do with all this vehicle knowledge? Td2 turned out to be a project that I am kinda proud of, car paint masters 2 will surely 
+    perform better than the first one, after cpm2(in a far future) I'll make another filler title to learn more expect a 
+    shitty platformer racer(kinda like gta5 stunt races). After that I'll have my first take on a magnum opus. 
+    Theme: An eery thrilling racer that will make you feel like your legs are burning. Taking place in a dystopian near-future
+    city drowning in gray concrete and covered in contrasting red with a gloomy atmosphere. Expect this to be relised in around 5 years. Realy excited for this one,hope it 
+    stays in the near future instead of current time. Also I am thinking about a Roblox <s>title</s> "place". A race track 
+    with vehicles that I made. I can host events like ff cup, supercar cup maybe even endurence races. That could be cool.
+    <br>
+    <br>
+    5. Succses?
+    <br>
+    <br>
+    How do you define "succses"? The sens of accomplisment that you get from yourself? 
+    Maybe the gratifaction that you receive from others in form of amazement? Or even some sort of compansation for all the 
+    hours you spent? For me its none of these(at least for now). As all of the stuff you see me do here is a coping mechanism to fill the emptyness inside of me.
+    I have yet never seen any sort of (positive)diffirence doing this type of stuff. When I sucseed in something that I am 
+    naturaly good at nobody cares but when other people are succsesfull at something it becomes the norm.(This sounds realy stupid but think on this one a bit.)
+    <br>
+    <br>
+    6. Were my expectations of school correct? (Will answer this after the first day of school. Good night) 
+    <br>
+    <br>
+    Hello its me from 8pm next day and I was absolutely correct with my expectations. The day was absolutely empty ,
+    devoid of any sense of progression and accomplisment. A day where you are at a net loss, both mentaly and physicly.
+    Physicly, feel like my body is rotting away with my head on my desk. I want to spring into some activites but there 
+    isn't any cool activites in my school. I wish there were running competitions since it is the the thing that I am slightly above average.
+    Mentaly, its realy exousting and it makes me feel empty.  
+    I am not excited for tomorrow except the part 
+    where it ends. Maybe a bit for the bike ride when I come home? Will try to tightin the brakes of my brake a bit as they are kinda 
+    loose and prevent me from pushing hard. 
+    <br>
+    <br>
+    7. So what now?
+    <br>
+    <br>
+    I haven't actualy finished the "vehicle physics" side of this post neither have the motivation for. I realy don't want 
+    to finish talking in here. I don't wanna end writing this. There is so much stuff and things to wory about yet they won't mean a thing at
+    the end. If you don't do them you will face the agonizing regret of never trying. What will change when I press the 
+    "Push origin" button? Why even read? Did you read this post? I mean for real did you realy read all the paragraphs above 
+    trying to understand them or treated them as scrambled array of words representing no meaning and skipped them trying to 
+    find the dopamine hit that our brains seek to cope with all the noise. Even a small sip of freedom is enough for me to crave for more.
+    A crave with no result.
+    <br>
+    <br>
+    9. Just a few paragraphs?
+    <br>
+    <br>
+    Feels like its been eternity while I have been writing all this yet you can just scroll up and down the page in mere 
+    seconds. The best way to define my current state of feeling is saying something that you thought would be cool/leave a big impact 
+    at the situation that you are in but it just makes you feel awkerd.
+    <br>
+    <br>
+    10. Did writing this help me?
+    <br>
+    <br>
+    It kinda did. Now I feel slightly bit lighter and my field of view has increased 
+    outside of few problems I have right now I am going to take a shover publish this and log off. Maybe listen to some music later.
+    <br>
+    <br>
+    Bonus topic: "Friendship test"
+    <br>
+    <br>
+    So recently I overheard people talking behind my deck about "friendship" test scores. I asked them what it is 
+    and they said it is a thing that you put a link in your instangram bio. Sounds like a cool concept. Why nobody takes my 
+    friendship test then? You just passed the test with a score of 100 out of 100 btw.
+    <br>
+    lets close it with a cool quote:
+    <br>
+    <br>
+    <i>"Divided we stand, together we fall."</i>
+</p>

@@ -1,0 +1,25 @@
+ :root{
+    --scrollTrack: #rgb(40, 53, 148);
+    --scrollbar-thumb: rgb(30, 40, 110);
+    --thumb-hover: rgb(39, 29, 66);
+
+    --bodyBack: rgb(55, 70, 121);
+
+    --topGradient: linear-gradient(90deg, rgb(65, 48, 112) 10%, rgb(40, 53, 148) 100%);
+    --bottomGradient: linear-gradient(90deg, rgb(22, 22, 22) 10%, rgb(16, 23, 75) 100%);
+
+    --topButtonText:aliceblue;
+    --topButtonHoverBackground:var(--topButtonText);
+
+    --bottomUlText:rgb(40, 53, 148);
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:white;
+    --paragraphLinkHover:rgb(0, 153, 255)  ;
+
+    --cardBack:rgb(65, 48, 112);
+    --cardTitle:lightblue;
+
+    --articTitle:rgb(97, 135, 148);
+ }

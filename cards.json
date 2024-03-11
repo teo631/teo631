@@ -1,0 +1,59 @@
+{
+    "cards": [
+      {
+        "image": "resimler/cpm.png",
+        "title": "Car Paint Masters",
+        "desc": "A mobile hyper casual game about painting cars, my first finished unity projects",
+        "article": "cpm"
+      },
+      {
+        "image": "resimler/ti/mainMenu.png",
+        "title": "Traffic Inspectors",
+        "desc": "A unity project I have made for a national competition",
+        "article": "ti"
+      }
+      ,
+      {
+        "image": "resimler/control/thumbPfont.png",
+        "title": "Controll Point",
+        "desc": "A roblox shooter with progression, skills and destructable objects.Inspired by Battlefield games",
+        "article": "control"
+      },
+      {
+        "image": "thumb.png",
+        "title": "This website",
+        "desc": "The website you are browsing right now!",
+        "article": "thisWeb"
+      },
+      {
+        "image": "resimler/scraper.png",
+        "title": "Player data webscrapper discord bot",
+        "desc": "A project I made in C#,gets the player data from a website and posts it into discord",
+        "article": "wbsc"
+      },
+      {
+        "image": "resimler/testBattleRoyale/thumb.png",
+        "title": "Battle Royale Test",
+        "desc": "A roblox battle royale ,not finished",
+        "article": "battleRoyale"
+      },
+      {
+        "image": "resimler/carPack/thumbo.png",
+        "title": "Low poly 3d car pack (+rims)",
+        "desc": "Cars that I have made in blender.",
+        "article": "carPack"
+      },
+      {
+        "image": "resimler/altf4p.png",
+        "title": "Alt++f4",
+        "desc": "A open source app to decrese chances of getting caught playing games in IT class.",
+        "article": "altf4"
+      },
+      {
+        "image": "resimler/props.png",
+        "title": "Generic low poly 3d city assets pack",
+        "desc": "Props that you would see in a generic city",
+        "article": "props"
+      }
+    ]
+}
