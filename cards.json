@@ -1,6 +1,12 @@
 {
     "cards": [
       {
+        "image": "resimler/content.webp",
+        "title": "Home made content farm(s)",
+        "desc": "Mass production of short form content with minimal effort.",
+        "article": "contentFarm"
+      },
+      {
         "image": "resimler/cpm.png",
         "title": "Car Paint Masters",
         "desc": "A mobile hyper casual game about painting cars, my first finished unity projects",
