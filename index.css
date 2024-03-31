@@ -198,6 +198,21 @@ p a:hover{
     
 }
 
+
+.card_wide{
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: top;
+    align-items: center;
+    margin: 20px;
+    width: 80%;
+    height: 20%;
+    height: 128px;
+    display: inline-block;
+    background-color: var(--cardBack);
+    
+}
+
 .tt{
     font-size: 15px;
     line-height: 1.5;
