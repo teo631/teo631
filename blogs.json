@@ -1,14 +1,14 @@
 {
     "cards": [
       {
-        "image": "resimler/bored.png",
+        "image": "resimler/ti2_meme1.png",
         "title": "Announcment for a small `exprience`",
         "desc": "The tension is catching up to me.",
         "article": "smallAnouncment"
       }
       ,
       {
-        "image": "resimler/bored.png",
+        "image": "resimler/ti2_meme.jpg",
         "title": "small update, with many topics",
         "desc": ":p",
         "article": "smallUpdate"
