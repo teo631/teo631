@@ -1,5 +1,9 @@
 {
-    "status": [
+    "status": [   
+      {
+        "message": "We have Twitter at home. Twitter at home:",
+        "date": "6/04/2024-18.27"
+      },
       {
         "message": "Just found out that you can write commits via the github mobile app. Cool.",
         "date": "6/04/2024-17.54"
