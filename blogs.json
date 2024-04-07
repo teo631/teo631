@@ -2,6 +2,13 @@
     "cards": [
       {
         "image": "resimler/ti2_meme1.png",
+        "title": "Yet another small update, with many topics",
+        "desc": "Back4 more yapping",
+        "article": "smallUpdate2"
+      }
+      ,
+      {
+        "image": "resimler/ti2_meme1.png",
         "title": "Announcment for a small `exprience`",
         "desc": "The tension is catching up to me.",
         "article": "smallAnouncment"
