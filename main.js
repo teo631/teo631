@@ -27,7 +27,7 @@ function spagetthicode(cards,cc) {
 
   var link = document.createElement("p");
   var lc = `
-  Congrulations, you have scrolled so far down that ou have found <a href="/myProjects.html?type=sct">the self-canceling thought wall<a href=""></a>!
+  Congrulations, you have scrolled so far down that ou have found <a href="/myProjects.html?type=sct">the self-canceling thoughts wall<a href=""></a>!
   `;
   link.innerHTML = lc;
   link.classList.add("articleParag");
@@ -99,6 +99,18 @@ fetch(buttonClicked+".json")
 
     if(buttonClicked=="sct")
     {
+      var titleCont=document.getElementById("titleCont");
+      var title = document.createElement("h1");
+      title.innerHTML="My internal debates on topics that I cancel mysef on."
+      title.classList.add("articleTitle");
+      titleCont.appendChild(title);
+
+      var titleCont2=document.getElementById("titleCont");
+      var title2 = document.createElement("p");
+      title2.innerHTML="Basicly debating with myself about the decisions and the doubts I have within them."
+      title2.classList.add("articleParag");
+      titleCont2.appendChild(title2);
+
       IamGoingToRegretTheseInfistrucutreChangesLater(cards,cardContainer)
       return
     }
