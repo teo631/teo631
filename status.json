@@ -1,6 +1,10 @@
 {
     "status": [   
       {
+        "message": "It does feel wierd to rapid post these status posts.",
+        "date": "8/04/2024-16.56"
+      },
+      {
         "message": "How tf am I supposed to but quotes in here I get a syntax error if I do so (yes I write these on a raw json file)",
         "date": "8/04/2024-16.50"
       },
