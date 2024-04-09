@@ -1,6 +1,13 @@
 {
     "cards": [
       {
+        "image": "thumb.png",
+        "title": "THEMES ARE FINALY HERE!!!",
+        "desc": "Total of 5 themes!",
+        "article": "themes"
+      }
+      ,
+      {
         "image": "resimler/ti2_meme1.png",
         "title": "Yet another small update, with many topics",
         "desc": "Back4 more yapping",

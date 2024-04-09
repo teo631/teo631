@@ -1,5 +1,67 @@
-:root{
-    --scrollTrack: #rgb(40, 53, 148);
+:root,
+    [data-selected-theme="greenWhite"]{
+    --scrollTrack: rgb(0, 189, 25);
+    --scrollbar-thumb: rgb(0, 143, 19);
+    --thumb-hover: rgb(0, 83, 11);
+
+    --bodyBack: rgb(211, 211, 211);
+
+    --topGradient: linear-gradient(90deg, rgb(0, 189, 25) 10%, rgb(0, 143, 19) 100%);
+    --bottomGradient: linear-gradient(90deg, rgb(22, 22, 22) 10%, rgb(0, 0, 0) 100%);
+
+    --topButtonText:aliceblue;
+    --topButtonHoverBackground:var(--topButtonText);
+    --topButtonHoverText:rgb(0, 189, 25);
+
+
+    --bottomUlText:rgb(0, 100, 13);
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:rgb(105, 161, 0);
+    --paragraphLinkHover:rgb(0, 153, 255)  ;
+    --paragraphText:rgb(0, 100, 13);
+
+    --cardBack:rgb(0, 189, 25);
+    --cardTitle:rgb(255, 255, 255);
+
+    --articTitle:rgb(0, 143, 19);
+
+    --font: "Century Gothic";
+ }
+
+ [data-selected-theme="orangeWhite"]{
+    --scrollTrack: rgb(185, 185, 185);
+    --scrollbar-thumb: orange;
+    --thumb-hover: rgb(139, 91, 0);
+
+    --bodyBack: whitesmoke;
+
+    --topGradient: linear-gradient(90deg, orange 10%, rgb(255, 201, 100) 100%);
+    --bottomGradient: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgb(59, 59, 59) 100%);
+    --topButtonHoverText:orange;
+
+    --topButtonText:whitesmoke;
+    --topButtonHoverBackground:var(--topButtonText);
+
+    --bottomUlText:Orange;
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:rgb(255, 183, 49);
+    --paragraphLinkHover:rgb(0, 0, 0)  ;
+    --paragraphText:rgb(182, 118, 0);
+
+    --cardBack:orange;
+    --cardTitle:whitesmoke;
+
+    --articTitle:orange;
+
+    --font: "Century Gothic";
+ }
+
+ [data-selected-theme="night"]{
+    --scrollTrack: rgb(40, 53, 148);
     --scrollbar-thumb: rgb(30, 40, 110);
     --thumb-hover: rgb(39, 29, 66);
 
@@ -10,6 +72,8 @@
 
     --topButtonText:aliceblue;
     --topButtonHoverBackground:var(--topButtonText);
+    --topButtonHoverText:rgb(40, 53, 148);
+
 
     --bottomUlText:rgb(40, 53, 148);
     --bottomLink: var(--topButtonText);
@@ -17,12 +81,77 @@
 
     --paragraphLink:white;
     --paragraphLinkHover:rgb(0, 153, 255)  ;
+    --paragraphText:lightblue;
 
     --cardBack:rgb(65, 48, 112);
     --cardTitle:lightblue;
 
     --articTitle:rgb(97, 135, 148);
+
+    --font: "Century Gothic";
  }
+
+ [data-selected-theme="blody"]{
+    --scrollTrack: rgb(185, 185, 185);
+    --scrollbar-thumb: rgb(184, 0, 0);
+    --thumb-hover: rgb(90, 0, 0);
+
+    --bodyBack: rgb(184, 0, 0);
+
+    --topGradient: linear-gradient(90deg, whitesmoke 10%, white 100%);
+    --bottomGradient: linear-gradient(90deg, whitesmoke 10%, whitesmoke 100%);
+    --topButtonHoverText:white;
+
+    --topButtonText:rgb(184, 0, 0);
+    --topButtonHoverBackground:var(--topButtonText);
+
+    --bottomUlText:rgb(184, 0, 0);
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:rgb(192, 146, 146);
+    --paragraphLinkHover:rgb(49, 0, 0)  ;
+    --paragraphText: white;
+
+    --cardBack:whitesmoke;
+    --cardTitle:rgb(184, 0, 0);
+
+    --articTitle:white;
+
+    --font: "Century Gothic";
+ }
+
+ [data-selected-theme="blackPink"]{
+    --scrollTrack: rgb(99, 99, 99);
+    --scrollbar-thumb: rgb(233,0,140);
+    --thumb-hover: white;
+
+    --bodyBack: rgb(17, 17, 17);
+
+    --topGradient: linear-gradient(90deg, rgb(233,0,140) 10%, rgb(233,0,140) 100%);
+    --bottomGradient: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgb(59, 59, 59) 100%);
+
+    --topButtonText:whitesmoke;
+    --topButtonHoverBackground:var(--topButtonText);
+    --topButtonHoverText:rgb(233,0,140);
+
+    --bottomUlText:rgb(233,0,140);
+    --bottomLink: var(--topButtonText);
+    --bottomLinkHover:var(--paragraphLinkHover);
+
+    --paragraphLink:rgb(233,0,140);
+    --paragraphLinkHover:rgb(255, 124, 203)  ;
+    --paragraphText:white;
+
+    --cardBack:rgb(233,0,140);
+    --cardTitle:rgb(255, 255, 255);
+
+    --articTitle:white;
+
+    --font: "Century Gothic";
+ }
+
+
  ::-webkit-scrollbar {
     width: 7px;
   }
@@ -51,7 +180,7 @@ body{
 .topButton{
     float: right;
     padding: 30px 30px 30px 30px;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
     font-size: 20px;
     text-align: center;
     min-width: 100px;
@@ -68,7 +197,7 @@ body{
     font-size: 30px;
     line-height: 1.5;
     color: var(--articTitle);
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
 }
 
 #mainPic{
@@ -108,8 +237,8 @@ a{
 }
 
 #topImg{
-    width: 75px;
-    height: 75px;
+    width: 73px;
+    height: 73px;
     margin: 5px;
 }
 
@@ -128,7 +257,8 @@ a{
     display: inline-block;
     list-style: none;
     justify-content: end;
-    font-family:  "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-family:  var(--font);
     color: var(--bottomUlText)
 }
 
@@ -137,7 +267,7 @@ a{
     text-align:center;
     padding: 0px 0px 0px 0px;
     font-size: 15px;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;;
+    font-family: var(--font);;
     -webkit-transition: color 0.3s;
     -moz-transition:    color 0.3s;
     -ms-transition:     color 0.3s;
@@ -215,7 +345,7 @@ p a:hover{
     font-size: 15px;
     line-height: 1.5;
     color: var(--cardTitle);
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
     
 }
 
@@ -223,7 +353,7 @@ p a:hover{
     font-size: 20px;
     line-height: 1.5;
     color: var(--cardTitle);
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
 }
 
 .cardpic{
@@ -247,15 +377,15 @@ p a:hover{
     font-size: 45px;
     line-height: 1.5;
     color: var(--articTitle);
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
 }
 
 .articleParag{
     padding-left: 30px;
     font-size: 20px;
     line-height: 1.5;
-    color: var(--cardTitle);
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: var(--paragraphText);
+    font-family: var(--font);
 }
 
 .embedFrame{
@@ -271,7 +401,7 @@ color: black;
 }
 
 #disqus_thread{
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-family: var(--font);
 margin: 40px;
 }
 
