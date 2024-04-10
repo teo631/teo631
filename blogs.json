@@ -1,13 +1,6 @@
 {
     "cards": [
       {
-        "image": "thumb.png",
-        "title": "THEMES ARE FINALY HERE!!!",
-        "desc": "Total of 5 themes!",
-        "article": "themes"
-      }
-      ,
-      {
         "image": "resimler/meme.jpg",
         "title": "Yet another small update, with many topics",
         "desc": "Back4 more yapping",
@@ -26,6 +19,13 @@
         "title": "small update, with many topics",
         "desc": ":p",
         "article": "smallUpdate"
+      }
+      ,
+      {
+        "image": "thumb.png",
+        "title": "THEMES ARE FINALY HERE!!!",
+        "desc": "Total of 5 themes!",
+        "article": "themes"
       }
       ,
       {
