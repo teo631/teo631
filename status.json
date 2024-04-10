@@ -1,5 +1,9 @@
 {
-    "status": [   
+    "status": [ 
+      {
+        "message": "Func fact: Blog posts are listed in a cronological order except a few which were moved few posts down in order to not set an unnerving tone for people visiting this website for the website since they have a slightly more worrying narrative.",
+        "date": "10/04/2024-12.34"
+      },  
       {
         "message": "Spending the holiday I have been waiting for mounths out of town(without me being informed the last moment, canceling all the plans I have been forming in that duration) writing stupid stuff here and scrolling thru ``social`` media mindlessy whilst multiple importent assigments that I am procrastinating  are waiting to be started. What a great holiday.",
         "date": "10/04/2024-11.29"
