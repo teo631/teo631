@@ -1,6 +1,13 @@
 {
     "cards": [
       {
+        "image": "resimler/decoLego/p1.jpg",
+        "title": "Decorative Lego pistol with some cool play futures",
+        "desc": "This one doesn't shoot bricks unlike the one I have shared here a few mounths ago.",
+        "article": "DecolegoGun"
+      }
+      ,
+      {
         "image": "resimler/meme.jpg",
         "title": "Yet another small update, with many topics",
         "desc": "Back4 more yapping",
@@ -37,7 +44,7 @@
       {
         "image": "resimler/ti3_concept.png",
         "title": "TRAFFIC INSPECTORS 2 IS OFFICALY DEAD(REAL)(kinda)",
-        "desc": "``Wouldn't it be grand to take the pistol by the hand``",
+        "desc": "``Wouldn't it be grand to take a pistol by the hand``",
         "article": "ti2isKill"
       },
       {
