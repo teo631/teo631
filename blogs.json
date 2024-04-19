@@ -8,6 +8,13 @@
       }
       ,
       {
+        "image": "thumb.png",
+        "title": "THEMES ARE FINALY HERE!!!",
+        "desc": "Total of 5 themes!",
+        "article": "themes"
+      }
+      ,
+      {
         "image": "resimler/meme.jpg",
         "title": "Yet another small update, with many topics",
         "desc": "Back4 more yapping",
@@ -29,23 +36,16 @@
       }
       ,
       {
-        "image": "resimler/bored.png",
-        "title": "a very boring sunday and some hate speech",
-        "desc": "",
-        "article": "sunday"
-      },
-      {
-        "image": "thumb.png",
-        "title": "THEMES ARE FINALY HERE!!!",
-        "desc": "Total of 5 themes!",
-        "article": "themes"
-      }
-      ,
-      {
         "image": "resimler/ti3_concept.png",
         "title": "TRAFFIC INSPECTORS 2 IS OFFICALY DEAD(REAL)(kinda)",
         "desc": "``Wouldn't it be grand to take a pistol by the hand``",
         "article": "ti2isKill"
+      },
+      {
+        "image": "resimler/bored.png",
+        "title": "a very boring sunday and some hate speech",
+        "desc": "",
+        "article": "sunday"
       },
       {
         "image": "thumb.png",

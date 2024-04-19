@@ -101,7 +101,7 @@ fetch(buttonClicked+".json")
     {
       var titleCont=document.getElementById("titleCont");
       var title = document.createElement("h1");
-      title.innerHTML="My internal debates on topics that I cancel myself on."
+      title.innerHTML="My internal debates on topics that I cancel myself on. (Aka the debate club that only has one member!)"
       title.classList.add("articleTitle");
       titleCont.appendChild(title);
 
