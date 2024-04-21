@@ -30,7 +30,7 @@ function sendMsg(){
         msg: document.getElementById("messageText").value
     };
 
-    fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.replit.dev/sendMessage', {
+    fetch('http://teo631.pythonanywhere.com/sendMessage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ function sendMsg(){
         }); 
 }
 
-fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.replit.dev/ping', {
+fetch('http://teo631.pythonanywhere.com/ping', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -67,5 +67,5 @@ fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.repli
       document.getElementById("serverStatus").innerHTML="Server status: "+data.status;
     })
     .catch(error => {
-        document.getElementById("serverStatus").innerHTML="Server status: No response, some has probably gone catastrophic wrong server side or I am doing some maintinance. Your messages will be voided if you send any.";
+        document.getElementById("serverStatus").innerHTML="Server status: No response, something has probably gone catastrophic wrong server side or I am doing some maintinance. Your messages will be voided if you send any.";
     }); 
