@@ -51,7 +51,7 @@ function sendMsg(){
         }); 
 }
 
-fetch('http://127.0.0.1:5000/ping', {
+fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.replit.dev/ping', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
