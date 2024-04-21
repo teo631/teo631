@@ -30,7 +30,7 @@ function sendMsg(){
         msg: document.getElementById("messageText").value
     };
 
-    fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.replit.dev:5000/sendMessage', {
+    fetch('https://2b19c594-b445-4cb6-83b1-c6550050903d-00-38kw1vo8opaig.spock.replit.dev/sendMessage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
