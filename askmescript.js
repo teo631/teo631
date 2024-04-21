@@ -30,7 +30,7 @@ function sendMsg(){
         msg: document.getElementById("messageText").value
     };
 
-    fetch('http://teo631.pythonanywhere.com/sendMessage', {
+    fetch('https://teo631.pythonanywhere.com/sendMessage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ function sendMsg(){
         }); 
 }
 
-fetch('http://teo631.pythonanywhere.com/ping', {
+fetch('https://teo631.pythonanywhere.com/ping', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
