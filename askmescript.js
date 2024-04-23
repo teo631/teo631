@@ -15,7 +15,7 @@ function sendMsg(){
 
     const savedDate = new Date(localStorage.getItem('myDate'));
     console.log(dateDifferenceInSeconds(savedDate,new Date))
-    if(dateDifferenceInSeconds(savedDate,new Date)<5){
+    if(dateDifferenceInSeconds(savedDate,new Date)<45){
         document.getElementById("result").innerHTML="Heey ur trying to send way too many messages, I higly doubt that you are that obsesed over contacting me."
         console.log("stop")
         return
