@@ -1,6 +1,13 @@
 {
     "cards": [
       {
+        "image": "resimler/rende_cool2.png",
+        "title": "Pitches for my english homework.",
+        "desc": "Random ideas and pitches",
+        "article": "engHomework"
+      }
+      ,
+      {
         "image": "resimler/decoLego/p1.jpg",
         "title": "Decorative Lego pistol with some cool play futures",
         "desc": "This one doesn't shoot bricks unlike the one I have shared here a few mounths ago.",
