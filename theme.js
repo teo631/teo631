@@ -8,6 +8,10 @@ let selectedThemeId=0
 
 const applyTheme = (x) => {
   document.documentElement.setAttribute("data-selected-theme", themes[x]);
+  IFRAMES_=document.getElementsByTagName("iframe");
+  for (let i = 0; i < IFRAMES_.length; i++) {
+    IFRAMES_[i].src += '';
+  }
 };
 
 const handleThemeSelection = (theme) => {   
