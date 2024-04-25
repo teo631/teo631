@@ -1,0 +1,16 @@
+<html data-selected-theme="night">
+    <script src="theme.js"></script>
+    <head><link rel="stylesheet" href="index.css"></head>
+    <body>
+        <h1 class="articleTitle">Contact me if you got anything to say or comment via disqus:</h1>
+        <p id="serverStatus" class="articleParag">Server status: Running</p>
+        <p class="articleParag">Whom I should refer to you as: <input id="yourName" type="text"></p>    
+        <p class="articleParag">Your precious message:</p>     
+        <textarea style="margin-left: 30px; width: 60%;" id="messageText"></textarea>
+        <br>
+        <script src="askmescript.js"></script>
+        <button onclick="sendMsg()" style="margin: 30px;">Send</button>
+        <p id="result" class="articleParag" >
+        </p>
+    </body>
+</html>
