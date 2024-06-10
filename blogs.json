@@ -1,6 +1,13 @@
 {
     "cards": [
       {
+        "image": "https://i.ibb.co/d7tTJWt/s17.jpg",
+        "title": "Small update 4",
+        "desc": "idk anymore",
+        "article": "smallUpdate4"
+      }
+      ,
+      {
         "image": "resimler/rende_cool2.png",
         "title": "A small update with a big annoucment",
         "desc": "website expension coming soon woohooooo",
